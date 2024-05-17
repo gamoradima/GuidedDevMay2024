@@ -351,23 +351,6 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 			},
 			{
 				"operation": "insert",
-				"name": "addRecord_pd69xrj",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_pd69xrj_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "UsrCountry",
-				"propertyName": "listActions",
-				"index": 0
-			},
-			{
-				"operation": "insert",
 				"name": "CommissionPercent",
 				"values": {
 					"layoutConfig": {
@@ -414,23 +397,6 @@ define("UsrRealty_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 6
-			},
-			{
-				"operation": "insert",
-				"name": "addRecord_1bataln",
-				"values": {
-					"code": "addRecord",
-					"type": "crt.ComboboxSearchTextAction",
-					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_1bataln_caption)#",
-					"clicked": {
-						"request": "crt.CreateRecordFromLookupRequest",
-						"params": {}
-					}
-				},
-				"parentName": "UsrCity",
-				"propertyName": "listActions",
-				"index": 0
 			},
 			{
 				"operation": "insert",
